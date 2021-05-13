@@ -17,6 +17,12 @@ var capas_base = {
   "Stamen.Watercolor": L.tileLayer.provider('Stamen.Watercolor')	
 }
 
+   "Thunderforest.SpinalMap": L.tileLayer.provider('Thunderforest.SpinalMap')
+}
+
+   "Thunderforest.OpenCycleMap" L.tileLayer.provider('Thunderforest.SpinalMap')
+}
+
 // Se agregan todas las capas base al mapa
 control_capas = L.control.layers(capas_base).addTo(mapa);
 
